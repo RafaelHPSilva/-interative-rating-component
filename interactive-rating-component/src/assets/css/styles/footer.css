@@ -2,5 +2,7 @@
   font: var(--body-font);
   color: var(--footer-font-color);
   margin-bottom: 1rem;
-
+}
+footer a{
+  color: var(--footer-font-color);
 }

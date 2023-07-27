@@ -1,0 +1,6 @@
+.footer__content{
+  font: var(--body-font);
+  color: var(--footer-font-color);
+  margin-bottom: 1rem;
+
+}

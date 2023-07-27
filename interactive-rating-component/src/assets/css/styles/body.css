@@ -1,0 +1,28 @@
+body{
+  display: grid;
+  grid-template-areas:'header header'
+                    'main main'
+                'footer footer';
+  grid-template-rows: 1fr auto 1fr;
+  
+  background-color:var(--body-color)
+}
+
+header{
+  display: grid;
+  grid-area: header;
+}
+
+main{
+display: grid;
+grid-area: main;
+
+}
+
+footer{
+  display: grid;
+  grid-area: footer;
+  align-items: end;
+  justify-self: center;
+}
+
